@@ -1,7 +1,8 @@
 repo_name: reconsumeralization/WebDUHDAD
 report_id: 912aff693bf636dbc30f320b43d40f8d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:04:46+00:00'
+timestamp: '2024-01-04T15:03:47+00:00'
 requested_by: reconsumeralization
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/reconsumeralization/WebDUHDAD
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -24,6 +26,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/blank.yml"
+  detection_source_url: https://github.com/reconsumeralization/WebDUHDAD/blob/main/.github/workflows/azure.yml
+  detection_source: ".github/workflows/azure.yml"
   last_updated_by: reconsumeralization
   last_updated_on: 2021-08-30 05:44:28.000000000 Z
